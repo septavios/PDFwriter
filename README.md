@@ -2,8 +2,8 @@
 
 This in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
 
-[![](https://raw.githubusercontent.com/rodyager/RWTS-PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
-Click to download the installer pkg](https://github.com/emilianbold/RWTS-PDFwriter/releases/download/v1.0.2/RWTS-PDFwriter.pkg)
+[![](https://raw.githubusercontent.com/septavios/PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
+Click to download the installer pkg](https://github.com/septavios/PDFwriter/releases/latest/download/RWTS-PDFwriter.pkg)
 
 
 # Have you ever seen this in Preview?
@@ -35,6 +35,18 @@ The “printed” PDF files produced will be stored in the directory
 ![PDFwriter folder](shared-folder.png)
 
 For convenient access to this folder, simply drag it to the right hand end of your dock.
+
+## Building from Source
+
+To build the installer package yourself (e.g., for Apple Silicon / ARM64 support):
+
+1.  Open Terminal.
+2.  Navigate to the `sources` directory.
+3.  Run the build script:
+    ```bash
+    ./buildscript.sh
+    ```
+4.  The installer package `RWTS-PDFwriter.pkg` will be created in the project root directory.
 
 ## Removal instructions
 If you want to uninstall **PDFwriter**, open Terminal.app, type 
