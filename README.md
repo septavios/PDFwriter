@@ -1,6 +1,8 @@
 # Export difficult PDFs with this macOS printer driver
 
-This in an macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
+This is a macOS compatible print driver that enables you to “print” your documents directly to a PDF file.
+
+**✅ Updated for Apple Silicon (ARM64) support!**
 
 [![](https://raw.githubusercontent.com/septavios/PDFwriter/master/sources/PDFwriter.iconset/icon_256x256.png "Click to download installer pkg")
 Click to download the installer pkg](https://github.com/septavios/PDFwriter/releases/latest/download/RWTS-PDFwriter.pkg)
