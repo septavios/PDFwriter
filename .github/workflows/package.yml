@@ -8,12 +8,18 @@ on:
   pull_request:
     branches: [ master ]
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v3
+
+    - name: Set Permission
+      run: chmod +x sources/buildscript.sh
 
     - name: Build
       run: cd sources && ./buildscript.sh
